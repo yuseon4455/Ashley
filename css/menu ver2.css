@@ -1,0 +1,275 @@
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 100;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format('opentype');}
+
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 300;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format('opentype');}
+
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 400;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');}
+
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 500;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format('opentype');}
+
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 700;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format('opentype');}
+
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 900;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf) format('opentype');}
+
+body, h1, h2, h3, h4, h5, h6, input, textarea, select {
+   font-family: 'Noto Sans KR', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* 배너사진 */
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background-image: url('../images/menu2banner.png'); /* 이미지 경로 */
+    background-size: cover; /* 이미지가 요소를 덮도록 조정 */
+    background-repeat: no-repeat; /* 이미지가 반복되지 않도록 설정 */
+}
+
+
+
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* 텍스트를 중앙에 위치 */
+    font-size: 50px; /* 텍스트 크기 */
+    font-weight: bold; /* 텍스트 굵기 */
+    
+}
+/* 탭메뉴css */
+.tabmenucontainer{
+    margin: 50px auto;
+}
+.tab-menu {
+    display: flex;
+    width: 1200px;
+    height: 90px;
+    background-color: #fff; /* 배경색 설정 */
+    margin:0 auto;
+}
+
+.tab {
+    flex: 1;
+    text-align: center;
+    
+    text-decoration: none; /* 링크 밑줄 제거 */
+    transition: background-color 0.3s; /* 배경색 전환 효과 */
+    font-weight: bold;
+    
+}
+/* 한글 택스트 크기설정 */
+.korean {
+    font-size: 16px;
+}
+
+/* 영어 텍스트 크기 설정 */
+.english {
+    font-size: 18px;
+    height: 20px;
+    display: inline-block;
+}
+.menuname{
+    margin-top: 10%;
+}
+
+.tab:first-child {
+    color: #F08E9F;/* 텍스트 색상 */
+    border-bottom: 5px solid #F08E9F;
+}
+
+.tab:not(:first-child) {
+    color: #5a5a5a; /* 텍스트 색상 */
+}
+.tab:hover {
+    background-color: #444; /* 마우스 오버 시 배경색 변경 */
+}
+/* 메뉴판css */
+.table-container {
+    width: 1200px;
+    height: 780px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.left-column {
+    width: 540px;
+    height: 780px;
+    overflow: hidden;
+}
+
+.right-column {
+    width: 660px;
+    height: 780px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    width: 33.33%;
+    height: 33.33%;
+    box-sizing: border-box;
+    text-align: center;
+    flex-direction: column;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; /* 셀 내부 여백 */
+    border: 1px solid transparent;
+    border-top: 1px solid #B2231A;
+    
+
+}
+
+.cell:nth-child(1),
+.cell:nth-child(2),
+.cell:nth-child(3),
+.cell:nth-child(5),
+.cell:nth-child(6),
+.cell:nth-child(7),
+.cell:nth-child(8),
+.cell:nth-child(9){
+    border-left: 1px solid #B2231A;
+}
+
+.cell:nth-child(7),
+.cell:nth-child(8){
+    border-bottom: 1px solid #B2231A;
+} 
+
+.cell:nth-child(3),
+.cell:nth-child(6){
+    border-right: 1px solid #B2231A;
+}
+.cell a{
+    display: flex;
+    justify-content: center; /* 가로 방향으로 중앙 정렬 */
+    text-decoration: none;
+    color:#000;
+    height: 19px;
+    width: 200px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    margin-top: 10px;
+}
+.cell a:hover{
+    color:#F08E9F;
+}
+.menubncontainer {
+    text-align: center;
+    margin: 160px 0;
+}
+/* 메뉴 광고배너css */
+.menubn {
+    width: 100%;
+    height: 302px;
+    position: relative;
+}
+
+.menubnlink {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 240px; /* 배경의 높이를 204px로 설정 */
+    background-color: #00243d; /* 원하는 배경색 */
+    text-align: center; /* 내부 내용을 가운데 정렬 */
+    z-index:-1; /* 배경색을 가진 요소를 이미지 위에 표시 */
+}
+
+.menubnlink a {
+    display: inline-block;
+    padding: 20px; /* 원하는 여백 설정 */
+}
+
+.menubnlink img {
+    max-height: 100%;
+    width: auto;
+    
+
+}
+
+/* 밀키트css/ */
+.mealkitcontainer {
+    text-align: center;
+}
+
+.mealkitmenu {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 160px;
+}
+.mealkitbig{
+    margin-bottom: 160px;
+}
+.mealkitmenu a {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    border: 1px solid #dddddd;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    
+}
+.mealkitmenu a img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.mealkitmenu a:hover {
+    border-color: #00243d;
+}
+
+.mealkitmenu a:nth-child(2) {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* 푸터 */
+footer {
+    width: 100%;
+    height: 187px;
+    background: #898A8B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-icons {
+    display: flex;
+    margin-left: 20px;
+}
+
+.footer-logo img, .footer-icons img {
+    margin-right: 10px;
+}
+
+.footer-text p {
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+}

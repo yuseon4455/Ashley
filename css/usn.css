@@ -1,0 +1,708 @@
+
+/* membership page */
+/* section01 */
+#section01-membership {
+    height: 1600px;
+    background-color: #fff;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#section01-membership img{
+    width: 100%;
+    height: 250px;
+}
+
+.im-p, .im-p2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.im-p , .im-p2 p {
+    position: absolute;
+    color: #000;
+    font-size: 50px;
+    font-weight:bold;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+}
+
+.line::before,
+.line::after {
+    width: 400px;
+    content: "";
+    margin: 0 100px;
+    background-color: #C4C4C4;
+    height: 1px;
+}
+
+.m-box{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.m-box > div {
+    margin: 0 30px;
+}
+
+.m-f img {
+    width: 75px !important;
+    height: 75px !important;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.m-s img {
+    width: 104px !important;
+    height: 80px !important;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.m-t img {
+    width: 104px !important;
+    height: 60px !important;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+
+.m-f, .m-s, .m-t {
+    border: 1px solid #CDCDCD;
+    width: 250px;
+    height: 300px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.m-box .pb {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+
+.m-box p{
+    margin-top: 10px;
+}
+
+.con p{
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 100px;
+}
+
+/* 1번째박스 */
+.m-l1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.l1-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 130px;
+    background: #E5E4E2;
+    font-size: 18px;
+    font-weight: bold;
+    border-width: 1.4px 0px 1.4px 0px; 
+    border-style:solid;
+}
+
+.l1-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 275px;
+    height: 130px;
+    font-size: 18px;
+    font-weight: bold;border-width: 1.4px 0px 1.4px 0px; 
+    border-style:solid;
+}
+
+.l1-2 img {
+    width: 65px !important;
+    height: 65px !important;
+    margin-bottom: 10px;
+}
+
+.l1-2-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 275px;
+    height: 130px;
+    font-size: 18px;
+    font-weight: bold;border-width: 1.4px 0.4px 1.4px 0.4px; 
+    border-style:solid;
+    border-bottom-color:#000;
+    border-right-color:#CDCDCD;
+    border-left-color:#CDCDCD;
+}
+
+.l1-2-1 img {
+    width: 65px !important;
+    height: 65px !important;
+    margin-bottom: 10px;
+}
+
+/* 2번째박스 */
+.m-l2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.l2-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 90px ;
+    background: #E5E4E2;
+    font-size: 18px;
+    font-weight: bold;
+    border-width: 0px 0px 1.4px 0px; 
+    border-style:solid;
+    border-bottom-color:#CDCDCD;
+}
+
+.l2-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 275px;
+    height: 90px;
+    font-size: 18px;
+    border-width: 0px 0px 1.4px 0px; 
+    border-style:solid;
+    border-bottom-color:#CDCDCD;
+}
+
+.l2-2-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 275px;
+    height: 90px;
+    font-size: 18px;
+    border-width: 0px 0.4px 1.4px 0.4px; 
+    border-style:solid;
+    border-bottom-color:#CDCDCD;
+    border-right-color:#CDCDCD;
+    border-left-color:#CDCDCD;
+}
+
+/* 3번째박스 */
+.m-l3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.l3-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 90px ;
+    background: #E5E4E2;
+    font-size: 18px;
+    font-weight: bold;
+    border-width: 0px 0px 1.4px 0px; 
+    border-style:solid;
+    border-bottom-color:#CDCDCD;
+}
+
+.l3-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 275px;
+    height: 90px;
+    font-size: 18px;
+    border-width: 0px 0px 1.4px 0px; 
+    border-style:solid;
+    border-bottom-color:#CDCDCD;
+}
+
+.l3-2-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 275px;
+    height: 90px;
+    font-size: 18px;
+    border-width: 0px 0.4px 1.4px 0.4px; 
+    border-style:solid;
+    border-bottom-color:#CDCDCD;
+    border-right-color:#CDCDCD;
+    border-left-color:#CDCDCD;
+}
+
+/* 4번째박스 */
+.m-l4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.l4-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 70px ;
+    background: #E5E4E2;
+    font-size: 18px;
+    font-weight: bold;
+    border-width: 0px 0px 1.4px 0px; 
+    border-style:solid;
+    border-bottom-color:#000;
+}
+
+.l4-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 275px;
+    height: 70px;
+    font-size: 18px;
+    border-width: 0px 0px 1.4px 0px; 
+    border-style:solid;
+    border-bottom-color:#000;
+}
+
+.l4-2-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 275px;
+    height: 70px;
+    font-size: 18px;
+    border-width: 0px 0.4px 1.4px 0.4px; 
+    border-style:solid;
+    border-bottom-color:#000;
+    border-right-color:#CDCDCD;
+    border-left-color:#CDCDCD;
+}
+
+.fin-container {
+    position: relative;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 80px auto 0 auto; /* 수평 중앙 정렬 */
+}
+
+.m-fin {
+    font-size: 22px;
+    color: #898A8B;
+    text-align: left;
+}
+
+.m-fin-2 {
+    font-size: 16px;
+    color: #898A8B;
+    text-align: left;
+    margin-top: 8px;
+}
+
+
+
+/* darw page */
+/* section01 */
+#section01-draw {
+    height: 1900px;
+    background-color: #fff;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#section01-draw img{
+    width: 100%;
+    height: 250px;
+}
+
+#section01-draw .h1-p{
+    display: flex;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.h1-p a{
+    font-size: 18px;
+    color: #000;
+}
+
+.im-p {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.im-p p {
+    position: absolute;
+    color: #000;
+    font-size: 50px;
+    font-weight:bold;
+}
+
+.d-p1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: #000;
+}
+
+.h1-p p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.d-p1 a{
+    color: #000;
+    /* margin: 10px; */
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.h1-p a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.d-p2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+    font-size: 18px;
+    color: #000;
+}
+
+.d-p2 span{
+    color: #AF4353;
+    font-weight: bold;
+}
+
+.st-ig {
+    display: flex;
+    position: relative;
+    width: 1200px;
+    margin: 50px auto;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.st-ig .st-1{
+    width: 460px !important;
+    height: 430px !important;
+}
+
+.st-ig .st-2{
+    width: 380px !important;
+    height: 370px !important;
+    margin-top: 30px;
+}
+
+.dr-p{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 100px auto;
+    width: fit-content;
+    color: #000;
+}
+.d-p3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.d-p4 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.d-p4-1 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.d-p5 {
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.dr-f {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 50px;
+}
+
+/* draw 박스 */
+.d-box{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 50px;
+    color: #000;
+}
+
+.d-box > div {
+    margin: 0 15px;
+}
+
+.d-fin1 img {
+    width: 138px !important;
+    height: 90px !important;
+}
+
+.d-fin2 img {
+    width: 108px !important;
+    height: 98px !important;
+}
+
+.d-fin3 img {
+    width: 108px !important;
+    height: 98px !important;
+}
+
+.d-fin4 img {
+    width: 121px !important;
+    height: 92px !important;
+}
+
+.d-fin5 img {
+    width: 103px !important;
+    height: 98px !important;
+}
+
+
+.d-fin1,.d-fin2,.d-fin3,.d-fin4,.d-fin5 {
+    display: flex;
+    border: 1px solid #CDCDCD;
+    width: 210px;
+    height: 220px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px;
+}
+
+.d-pb1{
+    margin-top: 8px;
+}
+
+.d-pb2{
+    margin-top: 5px;
+}
+
+
+/* darw2 page */
+/* section01 */
+#section01-draw2 {
+    height: 2000px;
+    background-color: #fff;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#section01-draw2 img{
+    width: 100%;
+    height: 250px;
+}
+
+#section01-draw2 .h1-p{
+    display: flex;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#draw2-container {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-top: 50px;
+    position: relative;
+}
+
+#draw2-container .d2-con{
+    border: 2px solid #949494;
+    width: 1200px;
+    height: 450px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.d2-con p{
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.d2-con .con-p{
+    font-size: 40px;
+}
+
+#btn-bn{
+    width: 500px;
+    height: 70px;
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+}
+
+#btn-bn input {
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    color: #898A8B;
+    font-size: 18px;
+    padding-left: 40px;
+    border: 2px solid #000;
+}
+
+#btn-bn button {
+    position: absolute;
+    right: 1px;
+    height: 70px;
+    width: 200px;
+    border-radius: 40px;
+    font-size: 20px;
+    color: #fff;
+    background: #007BE0;
+    border: none;
+    outline: 1.5px solid #000;
+    margin-top: 2px;
+}
+
+
+.hr{
+    background: #D9D9D9;
+    width: 500px;
+    height: 5px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.hr2{
+    display: inline-block;
+    float: left;
+    width: 350px;
+    height: 5px;
+    background: #63E065;
+}
+
+
+.evn-h{
+    display: flex;
+    width: 500px;
+    position: relative;
+    justify-content: space-between;
+}
+
+.evn-h p{
+    margin-top: 5px;
+    font-size: 13px;
+    color: #6C6C6C;
+}
+
+.hint{
+    border-radius: 15px;
+    width: 250px;
+    height: 35px;
+    background: #4E4E4E;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /
+}
+
+.hint p{
+    font-size: 18px;
+    color: #fff;
+    margin: 0;
+}
+
+.cir{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+}
+
+.cir-1{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 1170px;
+}
+
+.cir2{
+    border-radius: 15px;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #949494;
+}
+

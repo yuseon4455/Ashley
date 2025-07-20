@@ -1,0 +1,639 @@
+.reser-p {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reser-p .res-p {
+    position: absolute;
+    color: #00243d;
+    font-size: 50px;
+    font-weight:bold;
+}
+
+.reser-p img{
+    width: 100%;
+    height: 250px;
+}
+.reser-p .res-p2 {
+    position: absolute;
+    color: #00243d;
+    font-size: 22px;
+    font-weight:bold;
+    margin-top: 80px;
+}
+
+.re{
+    margin: 50px;
+}
+.re-p1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: #00243d;
+}
+
+.re-p2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: #7C899b;
+    margin-top: 8px;
+}
+
+/* 로테이션 css */
+.lotation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px; /* 왼쪽 큰 박스와 오른쪽 박스 컨테이너 사이의 간격 */
+    margin-bottom: 138px;
+}
+
+.left-box {
+    width: 630px;
+    height: 430px;
+    text-align: center;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px; /* 위쪽 박스와 아래쪽 박스 컨테이너 사이의 간격 */
+    width: 525px;
+}
+
+.top-right {
+    display: flex;
+    height: 260px;
+    gap: 25px; /* 두 수평 박스 사이의 간격 */
+}
+
+
+.locationcontainer1{
+    margin: auto 0;
+}
+
+.box1 {
+    background-color: #ededed; /* 박스 1의 배경색 */
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.locationinfotitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: #00243d;
+    text-align: center;
+}
+.locationinfo{
+    margin: 20px;
+}
+.locadrees, .time, .call{
+    display: flex;
+    align-items: center;
+    gap: 10px; /* 사진과 텍스트 사이의 간격 */
+    margin: 15px 0;
+    height: 20px;
+}
+
+.storebtn{
+    text-align: center;
+}
+.storebtn a{
+    text-decoration: none;
+}
+.loc-btn {
+    width: 70px;
+    height: 25px;
+    font-size: 10px;
+    color: white;
+    background-color: #253a59;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    line-height: 25px;
+}
+.box2 {
+    background-color: #ededed; /* 박스 2의 배경색 */
+    width: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;    
+}
+.adress{
+    margin:15px 0;
+}
+
+.adressname {
+    font-weight: bold;
+}
+
+.adresskm {
+    font-weight: bold;
+    font-size: 14px;
+}
+.adressss{
+    font-size: 12px;
+    width: 240px;
+}
+.locationcontainer2{
+    text-align: center;
+}
+
+.bottom-right {
+    display: flex;
+    flex-direction: column;
+    gap: 25px; /* 두 수직 박스 사이의 간격 */
+    
+    
+}
+
+.searchbox1{
+    background-color: #ededed;
+    border-radius: 15px;
+    display: flex;
+    width: 525px;
+    height: 60px;
+}
+.searchbox1 img{
+    margin: 16px;
+}
+.box3 {
+    padding: 0;
+    margin: 0;
+    background-color: #ededed;
+    border: none;
+    width: 480px;
+    height: 60px;
+    border-radius: 15px;
+}
+
+.search {
+    padding: 0;
+    background-color: #ededed;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.box4 {
+    width: 525px;
+    height: 60px;
+    font-size: 18px;
+    color: white;
+    background-color: #253a59;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    line-height: 60px;
+    text-decoration: none;
+}
+
+
+/* 웨이팅 상황 */
+.wait-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.wait-box {
+    display: flex;
+    justify-content: center;
+    width: 460px;
+    height: 410px;
+    background-color: #f1f1f1;
+    font-size: 22px;
+    color: #253A59;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+}
+
+.wait-box-1 img{
+    margin-bottom: 50px;
+    margin-top: 150px;
+}
+
+.wait-box2{
+    width: 740px;
+    height: 410px;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.wait-1{
+    font-size: 40px;
+    color: #253A59;
+}
+
+.wait-box2 span{
+    color: #B04040;
+    font-size: 60px;
+}
+
+.wait-2{
+    font-size: 22px;
+    margin: 30px 0;
+    color: #253A59;
+}
+
+.wait-mem{
+    display: flex;
+    justify-content: center;
+    width: 540px;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.separator-w1 {
+    width: 540px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.searchbox2 {
+    font-size: 20px;
+    border-radius: 15px;
+    width: 350px;
+    height: 60px;
+    background: #fff;
+    padding:0 0 0 30px;
+}
+
+.wait-member2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 160px;
+    height: 60px;
+    background: #253A59;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* reservation 좌석 */
+#section01-reservation {
+    height: 1400px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#section01-reservation img{
+    max-width: 100%;
+    height: auto;
+}
+
+.reser-p {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reser-p .res-p {
+    position: absolute;
+    color: #00243D;
+    font-size: 50px;
+    font-weight:bold;
+}
+
+.reser-p .res-p2 {
+    position: absolute;
+    color: #00243D;
+    font-size: 22px;
+    margin-top: 80px;
+}
+
+.reser2-h1{
+    display: flex;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #00243D;
+    padding-top: 50px;
+    font-size: 40px;
+    font-weight: 550;
+}
+
+.reser2-h2{
+    display: flex;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    color:#00243D;
+}
+
+.reser-container {
+    width: 1200px;
+    height: 143px;
+    border-radius: 15px;
+    background-color: #F1F1F1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.recon-p1{
+    width: 350px;
+}
+
+.recon-p1 img{
+    width: 150px !important;
+    height: 33px !important;
+}
+
+.recon-p2{
+    text-align: left;
+    width: 450px;
+}
+
+.table-p1{
+    font-size: 20px;
+    font-weight: 550;
+    color: #00243D;
+}
+
+.table-p2{
+    font-size: 14px;
+    color: #00243D;
+}
+
+.recon-p3 {
+    flex-direction: column;
+    font-size: 16px;
+    width: 280px;
+}
+
+.recon-p3 p{
+    font-size: 16px;
+}
+
+.table-c{
+    display: flex;
+    align-items: center;
+    width: 160px;
+}
+
+.table-c img {
+    align-items: center;
+    justify-content: center;
+}
+
+.table-p{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    width: 170px;
+}
+
+.recon-p3 img{
+    width: 20px !important;
+    height: 21px !important;
+    margin-right: 13px;
+}
+
+.table-container {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+.table-h1{
+    font-size: 30px;
+    color: #00243D;
+}
+
+.table-h2{
+    font-size: 18px;
+    margin-top: 8px;
+    color: #00243D;
+    
+}
+
+.table-p3 {
+    display: flex;
+    
+}
+.table-p3 img{
+    width: 20px !important;
+    height: 22px !important;
+    margin-right: 7px;
+}
+
+.table-y, .table-0 , .table-people{
+    display: flex;
+    background: #F1F1F1;
+    width: 150px;
+    height: 55px;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin-right: 30px;
+    border-radius: 15px;
+    margin-top: 45px;
+}
+
+.tn {
+    background-color: #F1F1F1;
+    border-radius: 15px;
+    width: 495px;
+    height: 55px;
+    display: flex;
+    margin-top: 30px;
+    text-align: left;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+}
+
+.table-color{
+    display: flex;
+    border: 2px solid #949494;
+    width: 300px;
+    height: 37px;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.table-color img {
+    width: 24px !important;
+    height: 20px !important;
+}
+
+.table-colorper {
+    margin-bottom: 15px;
+}
+
+.table-h4{
+    margin-right: 10px;
+    margin-left: 8px;
+    font-size: 18px;
+}
+
+.frame-rectangle761 {
+    left: 7px;
+    width: 141px;
+    bottom: -1px;
+    height: 54px;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 73px;
+}
+
+.button {
+    background-color: #072a40;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 50px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #094b6d;
+}
+
+.cancel {
+    background-color: #072a40;
+}
+
+.confirm {
+    background-color: #072a40;
+}
+
+/* 테이블 호버 효과 */
+.table-hover img {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.table-hover img:hover {
+    filter: url(#blue-filter); /* SVG 필터 적용 */
+    cursor: pointer;
+}
+
+.hover-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #3F8CFF;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.table-hover img:hover + .hover-bg {
+    opacity: 1;
+}
+
+/* 테이블 컨테이너 스타일 */
+.acon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 641px;
+}
+
+.table-color1 {
+    display: flex;
+    margin-bottom: 17px;
+    width: 641px;
+}
+
+.colorpeople {
+    margin-left: 600px;
+}
+
+.colorig1 {
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.table-color1 img{
+    width: 109px !important;
+    height: 66px !important;
+    margin-right: 50px;
+}
+
+.table-color1 .b1-ig {
+    width: 139px !important;
+    height: 71px !important;
+    margin: 0;
+}
+
+.salad {
+    display: flex;
+    background-color: #F1F1F1;
+    width: 641px;
+    height: 37px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #949494;
+    font-size: 18px;
+}
+
+.salad img{
+    width: 16px !important;
+    height: 18px !important;
+    padding-right: 8px;
+}
